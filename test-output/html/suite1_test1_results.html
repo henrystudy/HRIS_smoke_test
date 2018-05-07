@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - HRIS Smoke Test001</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>HRIS Smoke Test001</h1>
+<p>
+  Test duration: 82.165s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="6" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="1" class="group">com.pactera.hris.testcases.Login</td>
+		<td colspan="1" class="group">Duration</td>
+		<td colspan="1" class="group">Description</td>
+		<td colspan="1" class="group">Data being used</td>
+		<td colspan="1" class="group">Test result</td>
+		<td colspan="1" class="group">Screen shot</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  testLogin
+      </td>
+  <td class="duration">
+    67.606s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{testCommon=testCommon, password=12345677, url=http://139.224.130.197:8080/adidas/?domain=gc_test_adidas, username=11R3052}</span><br />
+    
+            <div class="testOutput">
+                        2018-05-06 14:22:47 : 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas<br />
+                                2018-05-06 14:22:49 : 输入登录用户名为: 11R3052<br />
+                                2018-05-06 14:22:50 : 输入登录密码为: 12345677<br />
+                                2018-05-06 14:22:51 : 点击登录按钮...<br />
+                                2018-05-06 14:23:13 : Unable to catch By.xpath: //*[@id=&apos;9207734bd12b&apos;] until 20 s.<br />
+                                2018-05-06 14:23:33 : Unable to catch By.xpath: //*[@id=&apos;c6479d9bcac0&apos;] until 20 s.<br />
+                                2018-05-06 14:23:54 : Unable to catch By.xpath: .//*[@id=&apos;home-common-tab&apos;]//*/ul[@class=&apos;calendar-date&apos;]/li until 20 s.<br />
+                                2018-05-06 14:23:55 : testLogin failed, the screenshot saved in: ./test-output/screenshot, screenshot name: 2018_05_06_14_23_54_987.jpg<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: ---入职管理模块显示失败--- expected [true] but found [false]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              com.pactera.hris.util.Assertion.verifyEquals(Assertion.java:36)<br />
+              com.pactera.hris.testcases.Login.testLogin(Login.java:112)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="6" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="1" class="group">com.pactera.hris.testcases.Login</td>
+		<td colspan="1" class="group">Duration</td>
+		<td colspan="1" class="group">Description</td>
+		<td colspan="1" class="group">Data being used</td>
+		<td colspan="1" class="group">Test result</td>
+		<td colspan="1" class="group">Screen shot</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  testLoginError
+      </td>
+  <td class="duration">
+    4.926s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{testCommon=testCommon, password=123456, url=http://139.224.130.197:8080/adidas/?domain=gc_test_adidas, username=xxx}</span><br />
+    
+            <div class="testOutput">
+                        2018-05-06 14:23:55 : 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas<br />
+                                2018-05-06 14:23:57 : 输入登录用户名为: xxx<br />
+                                2018-05-06 14:23:57 : 输入登录密码为: 123456<br />
+                                2018-05-06 14:23:58 : 点击登录按钮...<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

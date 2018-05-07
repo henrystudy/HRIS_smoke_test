@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>	
+		<testCommon>testCommon</testCommon>		
+	</common>
+	<!-- 
+	1. Configure different test data suite with same method name
+	 -->
+	<ob_newRecord>
+		<!-- 设置不同权限账号 -->
+		<username>11R3052</username>
+		<password>123456</password>
+		
+		<employee_name>t_李测试</employee_name>
+		<onboard_type>入职</onboard_type>
+		<city>广州</city>
+		<store_id>CN074</store_id>
+		<position>品牌中心营运经理</position>
+		<basic_salary>6000</basic_salary>
+		<cell_number>12211111111</cell_number>
+		<email>test123@123.com</email>
+		<staff_type>员工</staff_type>
+		<timesheet_type>综合工时</timesheet_type>
+		<contract_start>2018-08-19</contract_start>
+		
+		<approve_status>未提交</approve_status>
+	</ob_newRecord>
+	<ob_newRecord>
+		<!-- 设置不同权限账号 -->
+		<username>389500</username>
+		<password>123456</password>
+		
+		<employee_name>t_李测试1</employee_name>
+		<onboard_type>入职</onboard_type>
+		<city>广州</city>
+		<store_id>CN074</store_id>
+		<position>品牌中心营运经理</position>
+		<basic_salary>6000</basic_salary>
+		<cell_number>12211111111</cell_number>
+		<email>test123@123.com</email>
+		<staff_type>员工</staff_type>
+		<timesheet_type>综合工时</timesheet_type>
+		<contract_start>2018-08-19</contract_start>
+		
+		<approve_status>未提交</approve_status>
+	</ob_newRecord>
+	
+	
+	<ob_deleteRecord>
+		<!-- 注意不同权限账号下的记录不同 -->
+		<username>11R3052</username>
+		<password>123456</password>
+		
+		<employee_name>t_李测试1</employee_name>
+		<onboard_type>入职</onboard_type>
+		<city>广州</city>
+		<store_id>CN074</store_id>
+		<position>品牌中心营运经理</position>
+		<basic_salary>6000</basic_salary>
+		<cell_number>12211111111</cell_number>
+		<email>test123@123.com</email>
+		<staff_type>员工</staff_type>
+		<timesheet_type>综合工时</timesheet_type>
+		<contract_start>2018-08-19</contract_start>
+		
+		<approve_status>未提交</approve_status>
+	</ob_deleteRecord>
+	
+	-->
+</data>

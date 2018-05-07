@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>	
+		<testCommon>testCommon</testCommon>		
+	</common>
+	<testLogin>
+		<username>11R3052</username>
+		<password>12345677</password>
+	</testLogin>
+	<!--	
+	<testLogin>
+		<username>389500</username>
+		<password>123456</password>
+	</testLogin>
+	
+	<testLogin>
+		<username>adidas</username>
+		<password>123456</password>
+	</testLogin>
+	-->	
+	<testLoginError>
+		<username>xxx</username>
+		<password>123456</password>
+	</testLoginError>	
+	<!-- 
+	<testLoginError>
+		<username>0000001</username>
+		<password>123456</password>
+	</testLoginError>	
+	 -->
+</data>

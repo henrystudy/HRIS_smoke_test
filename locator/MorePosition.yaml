@@ -1,0 +1,6 @@
+more_store_selector:
+  type:xpath
+  value:".//div/table/tbody/tr/td[1]/div[text()='%s']"
+button_selec:
+  type:xpath
+  value:".//div/button[contains(text(),'选择')]"

@@ -1,0 +1,9 @@
+entry_new:
+  type:xpath
+  value:".//*[@name='list']//button[@name='0000000392']"
+entry_delete:
+  type:xpath
+  value:".//*[@name='list']//button[@name='0000000395']"
+record:
+  type:xpath
+  value:".//table/tbody/tr[descendant::div[text()='%s'] and descendant::div[text()='%s']]"

@@ -1,0 +1,21 @@
+logo_image:
+  type:xpath
+  value:"/html/body/div[1]/div/div/div/div[1]/div[1]/div[1]/div/img"
+onboarding_parent:
+  type:xpath
+  value:"//*[@id='9207734bd12b']"
+staff_onboard:
+  type:xpath
+  value:"//*[@id='cfc711c0bd44']"
+monthly_report:
+  type:xpath
+  value:"//*[@id='c6479d9bcac0']"
+pane_workingCanlendar:
+  type:xpath
+  value:".//*[@id='home-common-tab']//*/ul[@class='calendar-date']/li"
+personal_panel:
+  type:xpath
+  value:".//*[@id='wrap']/div/div/div[2]/div[1]/div[2]/div/a"
+logout:
+  type:xpath
+  value:".//*[@id='wrap']/div/div/div[2]/div[1]/div[2]/ul/li[1]/a"

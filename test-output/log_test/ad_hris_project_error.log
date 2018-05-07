@@ -1,0 +1,199 @@
+2018-04-16 15:00:23��626 CST [main] ERROR com.pactera.hris.info.TestOnly 20 - logError(): TEST ONLY!!!!
+2018-04-16 15:08:28��937 CST [main] ERROR com.pactera.hris.info.TestOnly 27 - logError(): error-TEST ONLY!!!!
+2018-04-16 22:10:32��702 CST [main] ERROR com.pactera.hris.base.Locator 39 - logError(): Unable to find yaml file: xxxxxxx, please check.D:\eclipse_workspace\ad smoke test\locator\xxxxxxx.yaml
+2018-04-16 22:17:37��932 CST [main] ERROR com.pactera.hris.base.Locator 39 - logError(): Unable to find yaml file: com.pactera.hris.info.TestOnly, please check.D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.info.TestOnly.yaml
+2018-04-16 22:20:47��239 CST [main] ERROR com.pactera.hris.base.Locator 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.info.TestOnly.yaml, please check.
+2018-04-18 23:08:52��273 CST [main] ERROR com.pactera.hris.util.XmlReader 39 - logError(): File does NOT exist: ./config/config.xml
+2018-04-18 23:09:24��014 CST [main] ERROR com.pactera.hris.util.XmlReader 39 - logError(): File does NOT exist: /config/config.xml
+2018-04-18 23:09:42��557 CST [main] ERROR com.pactera.hris.util.XmlReader 39 - logError(): File does NOT exist: config/config.xml
+2018-04-22 12:29:01��533 CST [main] ERROR com.pactera.hris.base.BasePage 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.base.BasePage.yaml, please check.
+2018-04-22 12:29:01��541 CST [main] ERROR com.pactera.hris.base.BasePage 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.base.BasePage.yaml, please check.
+2018-04-22 12:30:04��182 CST [main] ERROR com.pactera.hris.base.BasePage 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.base.BasePage.yaml, please check.
+2018-04-22 12:32:51��108 CST [main] ERROR com.pactera.hris.base.Locator 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.base.Locator.yaml, please check.
+2018-04-22 12:35:49��201 CST [main] ERROR com.pactera.hris.info.TestOnly 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.info.TestOnly.yaml, please check.
+2018-04-22 12:35:49��207 CST [main] ERROR com.pactera.hris.base.Locator 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.base.Locator.yaml, please check.
+2018-04-22 16:30:16��349 CST [main] ERROR com.pactera.hris.util.XmlReader 39 - logError(): Element does NOT exist: /*/username
+2018-04-22 16:34:27��989 CST [main] ERROR com.pactera.hris.util.XmlReader 39 - logError(): Loading file error: ./test-data/Login.xml
+2018-04-22 16:38:09��527 CST [main] ERROR com.pactera.hris.util.XmlReader 39 - logError(): Loading file error: ./test-data/Login.xml
+2018-04-22 16:38:58��884 CST [main] ERROR com.pactera.hris.util.XmlReader 39 - logError(): File does NOT exist: /test-data/Login.xml
+2018-04-22 16:39:51��494 CST [main] ERROR com.pactera.hris.util.XmlReader 39 - logError(): Loading file error: test-data/Login.xml
+2018-04-24 00:25:42��584 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.pages.LoginPage.yaml, please check.
+2018-04-24 00:25:44��835 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.pages.LoginPage.yaml, please check.
+2018-04-24 00:25:46��530 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.pages.LoginPage.yaml, please check.
+2018-04-24 00:25:48��497 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\com.pactera.hris.pages.LoginPage.yaml, please check.
+2018-04-24 20:16:49��231 CST [main] ERROR com.pactera.hris.info.TestOnly 39 - logError(): Unable to find yaml file: D:\eclipse_workspace\ad smoke test\locator\TestOnly.yaml, please check.
+2018-04-24 20:33:55��327 CST [main] ERROR com.pactera.hris.base.Locator 39 - logError(): Unable to catch By.name: susernameuntil20 s.
+2018-04-24 22:01:06��024 CST [main] ERROR com.pactera.hris.info.TestOnly 39 - logError(): Unable to catch By.name: loginnameuntil20 s.
+2018-04-24 22:29:43��170 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Locatorlogin_error is not exists in LoginPage.yaml
+2018-04-24 22:32:04��466 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Locatorlogin_error is not exists in LoginPage.yaml
+2018-04-24 22:37:33��890 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susernameuntil20 s.
+2018-04-26 22:30:04��480 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susernameuntil20 s.
+2018-04-26 22:30:46��245 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susernameuntil20 s.
+2018-04-26 22:40:29��194 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susername until 30 s.
+2018-04-26 22:41:21��371 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susername until 30 s.
+2018-04-26 22:52:50��892 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: /html/body/div[1]/div/div/div/div[1]/div[1]/div[1]/div/img until 20 s.
+2018-04-26 22:53:14��850 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: .//*[@id='wrap']/div/div/div[2]/div[1]/div[2]/div/a until 20 s.
+2018-04-26 22:54:01��598 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: /html/body/div[1]/div/div/div/div[1]/div[1]/div[1]/div/img until 20 s.
+2018-04-26 22:57:48��942 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: /html/body/div[1]/div/div/div/div[1]/div[1]/div[1]/div/img until 20 s.
+2018-04-26 23:04:34��561 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: /html/body/div[1]/div/div/div/div[1]/div[1]/div[1]/div/img until 20 s.
+2018-04-27 23:31:41。359 CST [main] ERROR com.pactera.hris.util.XmlReader 39 - logError(): Loading file error: ./test-output/screenshot
+2018-04-29 17:09:13。913 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (8d2e6f39-9f08-4c63-a8c6-e9d382da994c)] -> xpath: //*[@id='9207734bd12b']] is not displayed.
+2018-04-29 17:09:34。197 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (8d2e6f39-9f08-4c63-a8c6-e9d382da994c)] -> xpath: //*[@id='c6479d9bcac0']] is not displayed.
+2018-04-29 17:09:54。302 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='1614c4ac5dc'] until 20 s.
+2018-04-30 10:24:08。607 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: id='cfc711c0bd44' until 20 s.
+2018-04-30 10:31:37。509 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Unable to catch By.xpath: .//*[@id='menu-bar-f_QqK41Bk']/div[1]/button[1] until 20 s.
+2018-04-30 10:38:21。507 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Unable to catch By.name: btn dx-grid-add until 20 s.
+2018-04-30 10:40:59。430 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Unable to catch By.className: btn dx-grid-add until 20 s.
+2018-04-30 10:46:56。984 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Unable to catch By.xpath: .//*[@id='w_QqK41EU'] until 20 s.
+2018-04-30 10:50:07。532 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Unable to catch By.xpath: .//*[@id='w_QqK41EU'] until 20 s.
+2018-04-30 10:53:28。933 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Unable to catch By.className: ui-widget dx-field form-control dx-input tooltip-f until 20 s.
+2018-04-30 10:54:40。381 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (7014113d-707d-4376-932a-3cc03ba942ce)] -> xpath: //*[@id='9207734bd12b']] is not displayed.
+2018-04-30 10:54:40。396 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='c6479d9bcac0'] until 20 s.
+2018-04-30 10:54:40。403 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='1614c4ac5dc'] until 20 s.
+2018-04-30 10:54:40。419 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-04-30 10:55:40。873 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Unable to catch By.className: input-group input-1 until 20 s.
+2018-04-30 11:46:32。967 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): [[FirefoxDriver: firefox on XP (dca595f2-447b-470c-b8ef-791fadaf4fa9)] -> name: name] is not displayed.
+2018-04-30 11:50:09。727 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): [[FirefoxDriver: firefox on XP (3f470625-1626-4f5e-ac41-bbc166327624)] -> name: name] is not displayed.
+2018-04-30 12:00:25。194 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): [[FirefoxDriver: firefox on XP (32d4a8c7-cc15-4a2e-8e03-380a2bbdfb7a)] -> xpath: .//input[@name='name']] is not displayed.
+2018-04-30 12:19:51。943 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Unable to catch By.xpath: .//*[@id='w_QqK41EV'] until 20 s.
+2018-04-30 12:30:43。314 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (dafd4234-c3c7-4221-b203-9d051c08b1ca)] -> xpath: //*[@id='9207734bd12b']] is not displayed.
+2018-04-30 12:30:43。327 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='c6479d9bcac0'] until 20 s.
+2018-04-30 12:30:43。334 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='1614c4ac5dc'] until 20 s.
+2018-04-30 12:30:43。351 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-04-30 12:31:45。693 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Unable to catch By.name: .//form[@name='detail']/div/div/div/div/div/div/div/ul/li/*/span[text()='入职'] until 20 s.
+2018-04-30 12:42:46。499 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Unable to catch By.name: .//form[@name='detail']/div/div/div/div/div/div/div/ul/li[1]/a[1] until 20 s.
+2018-04-30 13:16:17。807 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='9207734bd12b'] until 20 s.
+2018-04-30 13:16:17。813 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='c6479d9bcac0'] until 20 s.
+2018-04-30 13:16:17。820 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='1614c4ac5dc'] until 20 s.
+2018-04-30 13:16:17。836 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-04-30 18:00:34。198 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): There is no alert appear!
+2018-04-30 21:17:44。120 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Unable to catch By.xpath: .//form[@name='detail']/div/div/div/div/div/div/div/input[@name='city']/following-sibling::ul/li/a/span[text()='s%'] until 20 s.
+2018-04-30 21:23:59。580 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): There is no alert appear!
+2018-04-30 21:36:02。709 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Unable to catch By.xpath: .//form[@name='detail']/div/div/div/div/div/div/div/input[@name='name'] until 20 s.
+2018-04-30 22:09:19。505 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): [[FirefoxDriver: firefox on XP (58540827-0c14-4bd3-991c-3dad464c92fb)] -> xpath: .//div/div/div/div/div/div/div/div/div/div/div/button[text()='新增']] is not displayed.
+2018-04-30 22:09:19。520 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-04-30 22:11:18。623 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): [[FirefoxDriver: firefox on XP (aa899117-4976-4b09-8ddc-55254171d117)] -> xpath: .//div/div/div/div/div/div/div/div/div/div/div/button[text()='新增']] is not displayed.
+2018-04-30 23:20:43。149 CST [main] ERROR com.pactera.hris.pages.MoreStore 39 - logError(): Unable to catch By.xpath: .//div/table/tbody/tr/td[1]/div[text()='CN074'] until 20 s.
+2018-04-30 23:26:40。269 CST [main] ERROR com.pactera.hris.pages.MoreStore 39 - logError(): Unable to catch By.xpath: .//div/table/tbody/tr/td[1]/div[text()='CN074'] until 20 s.
+2018-04-30 23:26:40。285 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-04-30 23:35:25。560 CST [main] ERROR com.pactera.hris.pages.MoreStore 39 - logError(): Unable to catch By.xpath: .//div/table/tbody/tr/td[1]/div[text()='CN074'] until 20 s.
+2018-04-30 23:35:25。581 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-01 09:17:27。418 CST [main] ERROR com.pactera.hris.pages.MoreStore 39 - logError(): Unable to catch By.xpath: .//div/table/tbody/tr/td[1]/div[text()='CN074'] until 20 s.
+2018-05-01 09:31:51。632 CST [main] ERROR com.pactera.hris.pages.MoreStore 39 - logError(): Unable to catch By.xpath: .//div/table/tbody/tr/td[1]/div[text()='CN074'] until 20 s.
+2018-05-01 09:36:04。670 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-01 09:36:51。479 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='c6479d9bcac0'] until 20 s.
+2018-05-01 09:37:11。627 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='1614c4ac5dc'] until 20 s.
+2018-05-01 09:55:41。548 CST [main] ERROR com.pactera.hris.pages.MoreCity 39 - logError(): Unable to catch By.xpath: .//div/table/tbody/tr/td[2]/div[text()='广州'] until 20 s.
+2018-05-01 10:05:59。231 CST [main] ERROR com.pactera.hris.pages.MoreCity 39 - logError(): Unable to catch By.xpath: .//div/table/tbody/tr/td[2]/div[text()='广州'] until 20 s.
+2018-05-01 10:14:09。921 CST [main] ERROR com.pactera.hris.pages.MoreCity 39 - logError(): Unable to catch By.xpath: .//div/table/tbody/tr/td[2]/div[text()='广州'] until 20 s.
+2018-05-01 10:20:44。613 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Locatorstaff_type_selector is not exists in NewStaffEntry.yaml
+2018-05-01 10:43:31。974 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (ecb8fe61-1378-4433-ba01-92118a10dc08)] -> xpath: //*[@id='cfc711c0bd44']] is not displayed.
+2018-05-01 10:49:04。228 CST [main] ERROR com.pactera.hris.pages.MoreStore 39 - logError(): Locatorbutton_select is not exists in MoreStore.yaml
+2018-05-01 12:17:13。430 CST [main] ERROR com.pactera.hris.pages.NewStaffEntry 39 - logError(): Locator save is not exists in NewStaffEntry.yaml
+2018-05-01 12:23:00。661 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): There is no alert appear!
+2018-05-01 12:43:35。967 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-01 12:48:40。215 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-01 23:31:29。423 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susername until 20 s.
+2018-05-02 20:49:06。321 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-02 20:51:08。743 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-02 20:52:30。032 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-02 20:53:02。225 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-02 21:00:26。974 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-02 21:04:38。879 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-02 21:16:10。845 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-02 21:21:00。605 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-02 21:23:19。237 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-02 21:27:40。370 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:27:40。422 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:27:53。618 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:29:00。845 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susername until 20 s.
+2018-05-02 21:29:00。861 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:29:00。887 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:29:28。203 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susername until 20 s.
+2018-05-02 21:29:28。220 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:30:04。561 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susername until 20 s.
+2018-05-02 21:30:04。584 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:30:04。620 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:30:31。945 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.name: susername until 20 s.
+2018-05-02 21:30:31。967 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:35:12。043 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 21:35:12。067 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:35:12。102 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:35:39。452 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 21:35:39。470 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:36:48。916 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 21:36:50。933 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:36:54。958 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:53:39。408 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 21:53:41。423 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:54:27。468 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 21:54:29。486 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 21:58:29。531 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 21:58:31。549 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:07:36。565 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:15:55。558 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='9207734bd12b'] until 20 s.
+2018-05-02 22:15:57。584 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:19:13。147 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:27:59。202 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 22:28:01。219 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:28:22。949 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 22:28:24。964 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:29:45。151 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:38:49。190 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:47:43。706 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 22:47:45。724 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:48:16。594 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 22:48:18。613 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:48:47。342 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-02 22:48:49。362 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 22:50:18。991 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 23:05:07。957 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 23:05:39。279 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='9207734bd12b'] until 20 s.
+2018-05-02 23:05:41。804 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='c6479d9bcac0'] until 20 s.
+2018-05-02 23:05:44。316 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='1614c4ac5dc'] until 20 s.
+2018-05-02 23:05:46。341 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-02 23:06:33。104 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-03 21:51:48。177 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-03 21:53:20。817 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-03 21:58:24。537 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-03 22:02:29。299 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-03 22:08:16。001 CST [main] ERROR com.pactera.hris.base.SeleniumDriver 39 - logError(): 浏览器初始化异常: com.pactera.hris.base.SeleniumDriver
+2018-05-03 22:23:16。939 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-03 22:23:16。955 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-03 22:39:11。539 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-03 22:39:11。548 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-03 22:51:07。631 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='9207734bd12b'] until 20 s.
+2018-05-03 22:51:28。496 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='c6479d9bcac0'] until 20 s.
+2018-05-03 22:51:49。220 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='1614c4ac5dc'] until 20 s.
+2018-05-03 22:51:49。234 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-05 09:24:41。541 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (6f26e3d7-9190-4fa8-a376-ac1fa2f9cb2f)] -> xpath: //*[@id='9207734bd12b']] is not displayed.
+2018-05-05 09:55:23。373 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='1614c4ac5dc'] until 20 s.
+2018-05-05 11:24:29。663 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-05 11:24:29。668 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-05 11:25:45。177 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-05 11:25:45。185 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-05 13:17:35。458 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Locator temp is not exists in StaffObHome.yaml
+2018-05-05 13:20:03。790 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Locator null is not exists in StaffObHome.yaml
+2018-05-05 13:28:00。827 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Locator null is not exists in StaffObHome.yaml
+2018-05-05 13:30:49。979 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Locator null is not exists in StaffObHome.yaml
+2018-05-05 13:36:41。462 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Locator null is not exists in StaffObHome.yaml
+2018-05-05 13:54:21。514 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-05 14:01:38。649 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Locator null is not exists in StaffObHome.yaml
+2018-05-05 15:15:42。414 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-05 15:16:49。635 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-05 15:19:45。984 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): [[FirefoxDriver: firefox on XP (48a963cc-6d87-4686-9cf5-4bf67cd19575)] -> xpath: .//table/tbody/tr[descendant::div[text()='未提交'] and descendant::div[text()='12211111111']]/td[1]/div] is not displayed.
+2018-05-05 15:30:52。838 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): [[FirefoxDriver: firefox on XP (95634b3b-8ac3-4cb7-a4a6-2f4de82645c2)] -> xpath: .//table/tbody/tr[descendant::div[text()='未提交'] and descendant::div[text()='12211111111']]/td[1]/div] is not displayed.
+2018-05-05 15:51:47。926 CST [main] ERROR com.pactera.hris.pages.StaffObHome 39 - logError(): Locator record is not exists in StaffObHome.yaml
+2018-05-05 15:52:09。178 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-06 01:48:24。629 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-06 01:48:24。636 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-06 02:10:29。176 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-06 02:10:29。201 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-06 14:22:06。718 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='9207734bd12b'] until 20 s.
+2018-05-06 14:22:07。220 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='c6479d9bcac0'] until 20 s.
+2018-05-06 14:22:07。720 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: .//*[@id='home-common-tab']//*/ul[@class='calendar-date']/li until 20 s.
+2018-05-06 14:22:07。725 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-06 14:22:07。741 CST [main] ERROR com.pactera.hris.util.Screenshot 39 - logError(): Failed to take screenshot!
+2018-05-06 14:23:13。403 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='9207734bd12b'] until 20 s.
+2018-05-06 14:23:33。964 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='c6479d9bcac0'] until 20 s.
+2018-05-06 14:23:54。974 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: .//*[@id='home-common-tab']//*/ul[@class='calendar-date']/li until 20 s.

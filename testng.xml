@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</listeners>
+<!-- 目前结构是可以多浏览器顺序执行，如果需要多浏览器并发执行，需要配置parallel -->
+  <!-- test thread-count="5" name="Test1chrome">
+    <parameter name="browser" value="chrome">
+	    <classes>
+	      <class name="com.pactera.hris.testcases.Login">
+	      	<methods>
+	      		<include name="testLogin" />
+	      		<exclude name="testLoginError" />
+	      	</methods>
+	      </class>	
+	      <class name="com.pactera.hris.testcases.Onboarding">
+	      	<methods>
+	      		<exclude name="onboarding_SM" />
+	      	</methods>
+	      </class>
+	    </classes>
+    </parameter> 
+  </test-->
+   
+  <test thread-count="5" name="HRIS Smoke Test001">
+    <parameter name="browser" value="firefox64bit">
+	    <classes>
+	      <class name="com.pactera.hris.testcases.Login">
+	      	<methods>
+	      		<include name="testLogin" />
+	      		<include name="testLoginError" />
+	      	</methods>
+	      </class>	
+	      
+	      <class name="com.pactera.hris.testcases.Onboarding">
+	      	<methods>
+	      		<exclude name="ob_newRecord" />
+	      		<exclude name="ob_deleteRecord" />
+	      	</methods>
+	      </class>
+	       
+	    </classes>
+    </parameter> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

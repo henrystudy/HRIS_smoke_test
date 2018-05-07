@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 这是一个比较实用的配置 -->
+<!-- 如果配置了指向同一个包或者类的多个Logger,好像只会有一个Logger生效,因为logger.getlogger(classname)只能引用一个 --> 
+
+<Configuration status="info">
+	<Appenders>
+		<!-- 配置输出到Console控制台的Log -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<!-- 配置过滤, Console只输出error以及以上级别的信息,其他的直接deny -->
+			<ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss。SSS z} [%t] %-5p %c %L - %M(): %m%n"/>
+		</Console>
+		
+		<Console name="LogConsole" target="SYSTEM_OUT">
+			<!-- 配置临时调试到Console -->
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss。SSS z} [%t] %-5p %c %L - %M(): %m%n"/>
+		</Console>
+		
+		<!-- 配置输出到文件的Log, 用于针对特定包或者特定类临时调试, 每次运行会自动清空文件, 取决于append="false" -->
+		<File name="LogFile" fileName=".\\test-output\\log_test\\test.log" append="false">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss。SSS z} [%t] %-5p %c %L - %M(): %m%n"/>
+		</File>
+		
+		<!-- 输出error以上Log到文件, 一般异常查询此Log -->
+		<File name="Error" fileName=".\\test-output\\log_test\\ad_hris_project_error.log" append="true">
+			<ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss。SSS z} [%t] %-5p %c %L - %M(): %m%n"/>
+		</File>
+		
+		<!--这个会打印出所有的信息，每次大小超过size，则这size大小的日志会自动存入按年份-月份建立的文件夹下面并进行压缩，作为存档-->
+		<RollingFile name="RollingFile" fileName="./test-output/log_details/ad_hris_project.log"
+						filePattern="./test-output/logs/$${date:yyyy-MM}/ad_hris_project-%d{yyyy-MM-dd}-%i.log.gz">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss。SSS z} [%t] %-5p %c %L - %M(): %m%n"/>
+			<SizeBasedTriggeringPolicy size="2MB"/>
+		</RollingFile>
+	</Appenders>
+	
+	<!-- 定义Logger, 只有定义了Logger并引入appender, appender才会生效 -->
+	<Loggers>
+		<!-- 针对特定包或者特定类定制Logger, 代码里需要引用这个name才会生效(logManager.getLogger(classname)),additivity="false", 不至于跟root配置重复输出 -->
+		<Logger name="com.pactera.hris.testCases.Log4jTest" level="info">
+			<AppenderRef ref="LogFile"/>
+		</Logger>
+		
+		<!-- 跟上一个的Logger,只能同时用 一个,因为引用了同一个类
+		<Logger name="com.pactera.hris.testCases.Log4jTest" level="info" additivity="false">
+			<AppenderRef ref="LogConsole"/>
+		</Logger>
+		-->
+		
+		<!-- 建立一个默认的root的logger -->
+		<Root level="trace">
+			<AppenderRef ref="Console"/>
+			<AppenderRef ref="RollingFile"/>
+			<AppenderRef ref="Error"/>
+		</Root>
+	</Loggers>
+</Configuration>

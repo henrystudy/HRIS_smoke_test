@@ -1,0 +1,6 @@
+more_city_selector:
+  type:xpath
+  value:".//div/table/tbody/tr/td[2]/div[text()='%s']"
+button_select:
+  type:xpath
+  value:".//div/button[contains(text(),'选择')]"

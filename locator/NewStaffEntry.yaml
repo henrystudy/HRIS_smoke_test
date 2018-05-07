@@ -1,0 +1,78 @@
+employee_name:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='name']"
+onboard_type:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='entry_type']"
+onboard_type_selecor:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/ul/li[1]/a[1]/span[text()='%s']"
+
+city:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='city']"
+#城市太多，使用参数s%动态替换
+city_selector:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='city']/following-sibling::ul/li/a/span[text()='%s']"
+city_more:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='city']/following-sibling::ul/li[last()]"
+#  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='city']/following-sibling::ul/li/a[text()='查看更多']"
+
+store_id:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='shop_id']"
+store_selector:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='shop_id']/following-sibling::ul/li/a/span[text()='%s']"
+store_more:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='shop_id']/following-sibling::ul/li/child::a[text()='查看更多']"
+
+position:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='position']"
+position_selector:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='position']/following-sibling::ul/li/a/span[text()='%s']"
+position_more:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='position']/following-sibling::ul/li/a[text()='查看更多']"
+  
+basic_salary:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='basic_wage']"
+cell_number:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='mobile']"
+email:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='email']"
+
+staff_type:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='employee_type']"
+staff_type_selector:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='employee_type']/following-sibling::ul/li/a/span[text()='%s']"
+  
+timesheet_type:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='work_hour_type']"
+timesheet_type_selector:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='work_hour_type']/following-sibling::ul/li/a/span[text()='%s']"
+  
+contract_start:
+  type:xpath
+  value:".//form[@name='detail']/div/div/div/div/div/div/div/input[@name='contract_begin_day']"
+save:
+  type:xpath
+  value:".//form/div/div/input[2]"
+save_commit:
+  type:xpath
+  value:".//form/div/div/input[3]"
+save_create:
+  type:xpath
+  value:".//form/div/div/input[4]"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test2firefox(failed)">
+    <parameter name="browser" value="firefox64bit"/>
+    <classes>
+      <class name="com.pactera.hris.testcases.Login">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="testLoginError" invocation-numbers="0"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.pactera.hris.testcases.Login -->
+    </classes>
+  </test> <!-- Test2firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

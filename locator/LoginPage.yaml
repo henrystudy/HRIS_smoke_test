@@ -1,0 +1,12 @@
+login_name:
+  type:xpath
+  value:".//*[@id='susername']"
+login_pwd:
+  type:xpath
+  value:".//*[@id='password']"
+login_button:
+  type:xpath
+  value:"/html/body/div[2]/div[2]/div/div[2]/div/form/div[4]/div/span"
+login_error:
+  type:xpath
+  value:"/html/body/div[2]/div[2]/div/div[2]/div/form/i"

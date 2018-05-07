@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<browser>firefox64bit</browser>
+	<waitTime>20</waitTime>	
+	<sleepTime>500</sleepTime>	
+	<driverSleepTime>3000</driverSleepTime>	
+</config>
