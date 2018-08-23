@@ -11,6 +11,7 @@ import com.pactera.hris.info.Config;
 import com.pactera.hris.util.Log;
 
 /**
+ * 设置来解析与子类同名的yaml文件
  * BaePage基类可以存放一些通用Action操作比如窗口切换，鼠标Action操作等
  * @author zhenhaiw
  *

@@ -30,6 +30,11 @@ public class Screenshot
 			if(!desFolder.exists())
 				desFolder.mkdirs();
 			FileUtils.copyFile(source, destination);
+			
+			//destination.getAbsolutePath()，直接使用会存在转义的问题
+			//window.open()会被有些浏览器block，需要看其他的实现方式，比如缩略图放大等等
+			logger.logInfo("<img src='"+ destination.getAbsolutePath() + "' onclick=\"window.open('D:/eclipse_workspace/ad smoke test/test-output/screenshot/" + screenshotName + "')\" height='100' width='100'/>");
+//			logger.logInfo("<a href="+ destination.getAbsolutePath() + "><img src='"+ destination.getAbsolutePath() + "' height='100' width='100'/></a>");
 		} catch (WebDriverException e) 
 		{
 			logger.logError("Failed to take screenshot!");
@@ -45,7 +50,7 @@ public class Screenshot
 	
 	public static String getScreenshotPath()
 	{
-		return screenshotName;
+		return screenshotPath;
 	}
 	
 	public static String getScreenshotName()

@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="HRIS Smoke Test001"
-           tests="2"
+           tests="1"
            failures="1"
            errors="0"
            skipped="0"
-           time="72.532">
+           time="6.424">
   <properties />
-            <testcase name="testLogin" time="67.606" classname="com.pactera.hris.testcases.Login">
+            <testcase name="testLoginError" time="6.424" classname="com.pactera.hris.testcases.Login">
                 <failure type="java.lang.AssertionError"
-                  message="---入职管理模块显示失败--- expected [true] but found [false]"
+                  message="expected [用户名或密码错误！xx] but found [用户名或密码错误！]"
               >
-<![CDATA[java.lang.AssertionError: ---入职管理模块显示失败--- expected [true] but found [false]
+<![CDATA[java.lang.AssertionError: expected [用户名或密码错误！xx] but found [用户名或密码错误！]
   org.testng.Assert.fail(Assert.java:96)
   org.testng.Assert.failNotEquals(Assert.java:776)
   org.testng.Assert.assertEqualsImpl(Assert.java:137)
   org.testng.Assert.assertEquals(Assert.java:118)
-  com.pactera.hris.util.Assertion.verifyEquals(Assertion.java:36)
-  com.pactera.hris.testcases.Login.testLogin(Login.java:112)
+  org.testng.Assert.assertEquals(Assert.java:442)
+  com.pactera.hris.util.Assertion.verifyEquals(Assertion.java:22)
+  com.pactera.hris.testcases.Login.testLoginError(Login.java:140)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -48,6 +49,5 @@
           </testcase>
   
   
-            <testcase name="testLoginError" time="4.926" classname="com.pactera.hris.testcases.Login" />
-      
+  
 </testsuite>

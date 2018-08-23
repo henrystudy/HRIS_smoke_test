@@ -197,3 +197,10 @@
 2018-05-06 14:23:13。403 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='9207734bd12b'] until 20 s.
 2018-05-06 14:23:33。964 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='c6479d9bcac0'] until 20 s.
 2018-05-06 14:23:54。974 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: .//*[@id='home-common-tab']//*/ul[@class='calendar-date']/li until 20 s.
+2018-05-08 10:29:52。734 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='9207734bd12b'] until 20 s.
+2018-05-08 10:30:15。793 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (48769296-5546-4800-b6fe-b38aac3e429d)] -> xpath: //*[@id='c6479d9bcac0']] is not displayed.
+2018-05-08 10:30:36。373 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: .//*[@id='home-common-tab']//*/ul[@class='calendar-date']/li until 20 s.
+2018-05-08 10:31:15。277 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-08 10:44:13。101 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (a109d5ee-db84-4357-a3eb-1d0fc2bb7752)] -> xpath: //*[@id='9207734bd12b']] is not displayed.
+2018-05-08 10:44:33。844 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (a109d5ee-db84-4357-a3eb-1d0fc2bb7752)] -> xpath: //*[@id='c6479d9bcac0']] is not displayed.
+2018-05-08 10:44:56。152 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.

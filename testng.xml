@@ -29,7 +29,7 @@
 	    <classes>
 	      <class name="com.pactera.hris.testcases.Login">
 	      	<methods>
-	      		<include name="testLogin" />
+	      		<exclude name="testLogin" />
 	      		<include name="testLoginError" />
 	      	</methods>
 	      </class>	

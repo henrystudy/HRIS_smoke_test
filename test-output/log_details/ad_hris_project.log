@@ -361,3 +361,263 @@
 2018-05-06 14:23:57。081 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
 2018-05-06 14:23:57。659 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
 2018-05-06 14:23:58。253 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 10:29:15。755 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 10:29:15。889 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 10:29:29。767 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: 11R3052
+2018-05-08 10:29:30。510 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 10:29:31。166 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 10:29:52。734 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: //*[@id='9207734bd12b'] until 20 s.
+2018-05-08 10:30:15。793 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (48769296-5546-4800-b6fe-b38aac3e429d)] -> xpath: //*[@id='c6479d9bcac0']] is not displayed.
+2018-05-08 10:30:36。373 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): Unable to catch By.xpath: .//*[@id='home-common-tab']//*/ul[@class='calendar-date']/li until 20 s.
+2018-05-08 10:30:36。566 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\.\test-output\screenshot/2018_05_08_10_30_36_378.jpg.jpg' height='100' width='100'/>
+2018-05-08 10:30:36。566 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLogin failed, the screenshot saved in: ./test-output/screenshot, screenshot name: 2018_05_08_10_30_36_378.jpg
+2018-05-08 10:30:36。566 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 10:30:54。622 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 10:31:15。277 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-08 10:31:15。413 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\.\test-output\screenshot/2018_05_08_10_31_15_288.jpg.jpg' height='100' width='100'/>
+2018-05-08 10:31:15。413 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: ./test-output/screenshot, screenshot name: 2018_05_08_10_31_15_288.jpg
+2018-05-08 10:43:17。751 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 10:43:17。876 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 10:43:31。198 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: 11R3052
+2018-05-08 10:43:31。859 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 10:43:32。512 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 10:44:13。101 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (a109d5ee-db84-4357-a3eb-1d0fc2bb7752)] -> xpath: //*[@id='9207734bd12b']] is not displayed.
+2018-05-08 10:44:33。844 CST [main] ERROR com.pactera.hris.pages.HomePage 39 - logError(): [[FirefoxDriver: firefox on XP (a109d5ee-db84-4357-a3eb-1d0fc2bb7752)] -> xpath: //*[@id='c6479d9bcac0']] is not displayed.
+2018-05-08 10:44:35。527 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\.\test-output\screenshot\2018_05_08_10_44_35_363.jpg' height='100' width='100'/>
+2018-05-08 10:44:35。527 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLogin failed, the screenshot saved in: ./test-output/screenshot, screenshot name: 2018_05_08_10_44_35_363.jpg
+2018-05-08 10:44:35。527 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 10:44:35。605 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 10:44:56。152 CST [main] ERROR com.pactera.hris.pages.LoginPage 39 - logError(): Unable to catch By.xpath: .//*[@id='susername'] until 20 s.
+2018-05-08 10:44:56。265 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\.\test-output\screenshot\2018_05_08_10_44_56_153.jpg' height='100' width='100'/>
+2018-05-08 10:44:56。265 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: ./test-output/screenshot, screenshot name: 2018_05_08_10_44_56_153.jpg
+2018-05-08 10:46:29。184 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 10:46:29。356 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 10:46:41。619 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: 11R3052
+2018-05-08 10:46:42。262 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 10:46:42。836 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 10:47:13。786 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击退出登录...
+2018-05-08 10:47:14。405 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击确认退出弹窗...
+2018-05-08 10:47:14。436 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 有退出登录弹窗提醒? true
+2018-05-08 10:47:14。969 CST [main] INFO  com.pactera.hris.pages.HomePage 27 - logInfo(): Accept the alert: This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+2018-05-08 10:47:15。479 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 10:47:17。187 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 10:47:17。844 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 10:47:18。467 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 10:47:21。594 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_10_47_20_972.jpg' height='100' width='100'/>
+2018-05-08 10:47:21。594 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_10_47_20_972.jpg
+2018-05-08 11:05:01。284 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 11:05:01。440 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 11:05:06。818 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 11:05:07。564 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 11:05:08。162 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 11:05:11。862 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_11_05_11_225.jpg' height='100' width='100'/>
+2018-05-08 11:05:11。862 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_11_05_11_225.jpg
+2018-05-08 11:05:12。417 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_11_05_11_862.jpg' height='100' width='100'/>
+2018-05-08 11:05:12。417 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_11_05_11_862.jpg
+2018-05-08 11:06:38。843 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 11:06:38。952 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 11:06:40。750 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 11:06:41。382 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 11:06:42。054 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 11:06:45。728 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_11_06_45_100.jpg' height='100' width='100'/>
+2018-05-08 11:06:45。728 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_11_06_45_100.jpg
+2018-05-08 11:19:57。792 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 11:19:57。964 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 11:20:00。171 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 11:20:00。869 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 11:20:01。486 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 11:20:04。810 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_11_20_04_135.jpg
+2018-05-08 11:20:04。810 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_11_20_04_135.jpg' height='100' width='100'/>
+2018-05-08 11:41:22。826 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 11:41:23。029 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 11:41:25。676 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 11:41:26。358 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 11:41:26。967 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 11:41:30。102 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_11_41_29_438.jpg' height='100' width='100'/>
+2018-05-08 11:41:30。102 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <a href=D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_11_41_29_438.jpg></a>
+2018-05-08 11:41:30。102 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_11_41_29_438.jpg
+2018-05-08 12:09:19。824 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 12:09:19。980 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 12:09:22。057 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 12:09:22。744 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 12:09:23。355 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 12:09:26。838 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_12_09_26_188.jpg' height='100' width='100'/>
+2018-05-08 12:09:26。838 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <a href=D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_12_09_26_188.jpg></a>
+2018-05-08 12:09:26。838 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_12_09_26_188.jpg
+2018-05-08 14:00:15。663 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:00:16。178 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:00:19。581 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:00:20。274 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:00:20。899 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:00:24。132 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <a href=D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_00_23_490.jpg><img src='"+ destination.getAbsolutePath() + "' height='100' width='100'/></a>
+2018-05-08 14:00:24。132 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_00_23_490.jpg
+2018-05-08 14:04:00。214 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:04:00。305 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:04:02。100 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:04:02。770 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:04:03。379 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:04:06。534 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <a href=D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_04_05_905.jpg><img src='"+ destination.getAbsolutePath() + "' height='100' width='100'></a>
+2018-05-08 14:04:06。534 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_04_05_905.jpg
+2018-05-08 14:05:51。377 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:05:51。502 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:05:53。797 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:05:54。444 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:05:55。076 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:05:58。614 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <a href=D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_05_57_865.jpg><img src='"+ destination.getAbsolutePath() + "' height='100' width='100'/></a>
+2018-05-08 14:05:58。614 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_05_57_865.jpg
+2018-05-08 14:12:11。205 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:12:11。368 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:12:13。404 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:12:14。100 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:12:14。727 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:12:18。184 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <a href=D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_12_17_449.jpg>Test</a>
+2018-05-08 14:12:18。184 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_12_17_449.jpg
+2018-05-08 14:15:57。175 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:15:57。339 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:15:59。627 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:16:00。325 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:16:00。953 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:16:04。124 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_16_03_417.jpg' height='100' width='100'/>
+2018-05-08 14:16:04。124 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_16_03_417.jpg
+2018-05-08 14:29:07。192 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:29:07。395 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:29:11。541 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:29:12。201 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:29:12。843 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:29:16。021 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <a href=D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_29_15_290.jpg><img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_29_15_290.jpg' height='100' width='100'/></a>
+2018-05-08 14:29:16。021 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_29_15_290.jpg
+2018-05-08 14:33:01。201 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:33:01。389 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:33:03。755 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:33:04。506 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:33:05。113 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:33:08。884 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <a href=D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_33_08_038.jpg><img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_33_08_038.jpg' height='100' width='100'/></a>
+2018-05-08 14:33:08。884 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_33_08_038.jpg
+2018-05-08 14:41:52。063 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:41:52。248 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:41:54。637 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:41:55。309 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:41:55。942 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:41:59。357 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_41_58_624.jpgonclick='window.open(D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_41_58_624.jpg)' height='100' width='100'/>
+2018-05-08 14:41:59。358 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_41_58_624.jpg
+2018-05-08 14:47:05。388 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:47:05。498 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:47:07。679 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:47:08。369 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:47:09。039 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:47:12。391 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_47_11_761.jpg onclick='window.open(D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_47_11_761.jpg)' height='100' width='100'/>
+2018-05-08 14:47:12。391 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_47_11_761.jpg
+2018-05-08 14:52:21。707 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:52:21。919 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:52:24。152 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:52:24。893 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:52:25。556 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:52:29。090 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src=D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_52_28_352.jpg onclick='window.open(D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_52_28_352.jpg)' height='100' width='100'/>
+2018-05-08 14:52:29。090 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_52_28_352.jpg
+2018-05-08 14:54:02。291 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 14:54:02。410 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 14:54:04。182 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 14:54:04。852 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 14:54:05。509 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 14:54:08。959 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_54_08_281.jpg' onclick='window.open(D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_14_54_08_281.jpg)' height='100' width='100'/>
+2018-05-08 14:54:08。959 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_14_54_08_281.jpg
+2018-05-08 20:39:26。981 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 20:39:27。213 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 20:39:29。000 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 20:39:29。891 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 20:39:30。531 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 20:39:34。196 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_39_33_305.jpg' onclick='window.open(file:\D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_39_33_305.jpg)' height='100' width='100'/>
+2018-05-08 20:39:34。196 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_20_39_33_305.jpg
+2018-05-08 20:41:12。046 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 20:41:12。318 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 20:41:13。839 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 20:41:14。625 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 20:41:15。307 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 20:41:19。001 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_41_18_177.jpg' onclick='window.open(file:/D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_41_18_177.jpg)' height='100' width='100'/>
+2018-05-08 20:41:19。002 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_20_41_18_177.jpg
+2018-05-08 20:42:13。992 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 20:42:14。271 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 20:42:16。095 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 20:42:16。809 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 20:42:17。524 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 20:42:20。645 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_42_19_892.jpg' onclick='window.open(file:///D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_42_19_892.jpg)' height='100' width='100'/>
+2018-05-08 20:42:20。646 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_20_42_19_892.jpg
+2018-05-08 20:44:49。658 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 20:44:49。876 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 20:44:51。456 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 20:44:52。231 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 20:44:52。955 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 20:44:56。585 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_44_55_858.jpg' onclick='window.open("file:///D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_44_55_858.jpg")' height='100' width='100'/>
+2018-05-08 20:44:56。586 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_20_44_55_858.jpg
+2018-05-08 20:46:43。172 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-08 20:46:43。403 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-08 20:46:46。183 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-08 20:46:46。905 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-08 20:46:47。546 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-08 20:46:50。774 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_46_50_038.jpg' onclick='window.open("file:///D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_08_20_46_50_038.jpg")' height='100' width='100'/>
+2018-05-08 20:46:50。774 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_08_20_46_50_038.jpg
+2018-05-09 11:05:25。624 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-09 11:05:25。760 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-09 11:05:31。069 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-09 11:05:31。928 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-09 11:05:32。552 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-09 11:05:35。930 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_05_35_267.jpg' onclick='window.open("file:///'D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_05_35_267.jpg'")' height='100' width='100'/>
+2018-05-09 11:05:35。930 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_05_35_267.jpg
+2018-05-09 11:08:00。383 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-09 11:08:00。571 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-09 11:08:02。543 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-09 11:08:03。249 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-09 11:08:03。905 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-09 11:08:07。556 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_08_06_890.jpg' onclick='window.open("'file:///D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_08_06_890.jpg'")' height='100' width='100'/>
+2018-05-09 11:08:07。557 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_08_06_890.jpg
+2018-05-09 11:12:55。939 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-09 11:12:56。048 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-09 11:12:58。567 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-09 11:12:59。332 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-09 11:12:59。930 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-09 11:13:03。411 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_13_02_708.jpg' onclick='window.open('file:///D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_13_02_708.jpg')' height='100' width='100'/>
+2018-05-09 11:13:03。411 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_13_02_708.jpg
+2018-05-09 11:16:07。995 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-09 11:16:08。173 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-09 11:16:10。216 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-09 11:16:10。900 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-09 11:16:11。525 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-09 11:16:14。904 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_16_14_242.jpg' onclick='window.open('file:///'D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_16_14_242.jpg') height='100' width='100'/>
+2018-05-09 11:16:14。904 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_16_14_242.jpg
+2018-05-09 11:27:05。256 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-09 11:27:05。459 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-09 11:27:07。821 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-09 11:27:08。486 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-09 11:27:09。097 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-09 11:27:12。367 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_27_11_710.jpg' onclick="window.open('D:/eclipse_workspace/ad smoke test/test-output/screenshot/2018_05_09_11_16_14_242.jpg')" height='100' width='100'/>
+2018-05-09 11:27:12。367 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_27_11_710.jpg
+2018-05-09 11:34:17。596 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-09 11:34:17。780 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-09 11:34:20。462 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-09 11:34:21。201 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-09 11:34:21。950 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-09 11:34:25。486 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_34_24_783.jpg' onclick="window.open('D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_34_24_783.jpg')" height='100' width='100'/>
+2018-05-09 11:34:25。486 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_34_24_783.jpg' onclick="window.open('D:/eclipse_workspace/ad smoke test/test-output/screenshot/2018_05_09_11_16_14_242.jpg')" height='100' width='100'/>
+2018-05-09 11:34:25。486 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_34_24_783.jpg
+2018-05-09 11:36:57。107 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-09 11:36:57。225 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-09 11:36:59。193 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-09 11:36:59。870 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-09 11:37:00。473 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-09 11:37:03。877 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_37_03_180.jpg' onclick="window.open('D:/eclipse_workspace/ad smoke test/test-output/screenshot/2018_05_09_11_16_14_242.jpg')" height='100' width='100'/>
+2018-05-09 11:37:03。877 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_37_03_180.jpg
+2018-05-09 11:39:19。817 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-09 11:39:19。942 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-09 11:39:22。145 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-09 11:39:22。815 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-09 11:39:23。456 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-09 11:39:26。832 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_39_26_154.jpg' onclick="window.open('D:/eclipse_workspace/ad smoke test/test-output/screenshot/2018_05_09_11_39_26_154.jpg')" height='100' width='100'/>
+2018-05-09 11:39:26。832 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_39_26_154.jpg
+2018-05-09 11:42:43。952 CST [main] INFO  com.pactera.hris.base.SeleniumDriver 27 - logInfo(): 浏览器初始化-ok!
+2018-05-09 11:42:44。062 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+2018-05-09 11:42:46。588 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录用户名为: xxx
+2018-05-09 11:42:47。263 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 输入登录密码为: 123456
+2018-05-09 11:42:47。895 CST [main] INFO  com.pactera.hris.testcases.Login 27 - logInfo(): 点击登录按钮...
+2018-05-09 11:42:51。220 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_42_50_486.jpg' onclick="window.open('D:/eclipse_workspace/ad smoke test/test-output/screenshot/2018_05_09_11_42_50_486.jpg')" height='100' width='100'/>
+2018-05-09 11:42:51。220 CST [main] INFO  com.pactera.hris.util.Screenshot 27 - logInfo(): <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_42_50_486.jpg' onclick="window.open('D:\eclipse_workspace\ad smoke test\test-output\screenshot/2018_05_09_11_42_50_486.jpg')" height='100' width='100'/>
+2018-05-09 11:42:51。220 CST [main] INFO  com.pactera.hris.util.TestRetryListener 27 - logInfo(): testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_42_50_486.jpg

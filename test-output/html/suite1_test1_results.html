@@ -12,7 +12,7 @@
 <body>
 <h1>HRIS Smoke Test001</h1>
 <p>
-  Test duration: 82.165s
+  Test duration: 16.617s
 </p>
 
 
@@ -30,35 +30,34 @@
             
 <tr>
   <td class="method">
-                  testLogin
+                  testLoginError
       </td>
   <td class="duration">
-    67.606s
+    6.424s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">{testCommon=testCommon, password=12345677, url=http://139.224.130.197:8080/adidas/?domain=gc_test_adidas, username=11R3052}</span><br />
+          <i>Method arguments: </i><span class="arguments">{testCommon=testCommon, password=123456, url=http://139.224.130.197:8080/adidas/?domain=gc_test_adidas, username=xxx}</span><br />
     
             <div class="testOutput">
-                        2018-05-06 14:22:47 : 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas<br />
-                                2018-05-06 14:22:49 : 输入登录用户名为: 11R3052<br />
-                                2018-05-06 14:22:50 : 输入登录密码为: 12345677<br />
-                                2018-05-06 14:22:51 : 点击登录按钮...<br />
-                                2018-05-06 14:23:13 : Unable to catch By.xpath: //*[@id=&apos;9207734bd12b&apos;] until 20 s.<br />
-                                2018-05-06 14:23:33 : Unable to catch By.xpath: //*[@id=&apos;c6479d9bcac0&apos;] until 20 s.<br />
-                                2018-05-06 14:23:54 : Unable to catch By.xpath: .//*[@id=&apos;home-common-tab&apos;]//*/ul[@class=&apos;calendar-date&apos;]/li until 20 s.<br />
-                                2018-05-06 14:23:55 : testLogin failed, the screenshot saved in: ./test-output/screenshot, screenshot name: 2018_05_06_14_23_54_987.jpg<br />
+                        2018-05-09 11:42:44 : 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas
+                                2018-05-09 11:42:46 : 输入登录用户名为: xxx
+                                2018-05-09 11:42:47 : 输入登录密码为: 123456
+                                2018-05-09 11:42:47 : 点击登录按钮...
+                                2018-05-09 11:42:51 : 
+                                2018-05-09 11:42:51 : 
+                                2018-05-09 11:42:51 : testLoginError failed, the screenshot saved in: test-output/screenshot, screenshot name: 2018_05_09_11_42_50_486.jpg
                   </div>
     
-
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: ---入职管理模块显示失败--- expected [true] but found [false]</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [用户名或密码错误！xx] but found [用户名或密码错误！]</b></a><br />
     <div class="stackTrace" id="exception-0">
               org.testng.Assert.fail(Assert.java:96)<br />
               org.testng.Assert.failNotEquals(Assert.java:776)<br />
               org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
               org.testng.Assert.assertEquals(Assert.java:118)<br />
-              com.pactera.hris.util.Assertion.verifyEquals(Assertion.java:36)<br />
-              com.pactera.hris.testcases.Login.testLogin(Login.java:112)<br />
+              org.testng.Assert.assertEquals(Assert.java:442)<br />
+              com.pactera.hris.util.Assertion.verifyEquals(Assertion.java:22)<br />
+              com.pactera.hris.testcases.Login.testLoginError(Login.java:140)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
@@ -86,43 +85,21 @@
               org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
                 </div>
       </td>
+  <td class="screenshot">
+			<div class="screenshotimage">
+	  	    	      <br />
+	    	  	    	      <br />
+	    	  	    	      <br />
+	    	  	    	      <br />
+	    	  	    	      <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_42_50_486.jpg' onclick="window.open('D:/eclipse_workspace/ad smoke test/test-output/screenshot/2018_05_09_11_42_50_486.jpg')" height='100' width='100'/><br />
+	    	  	    	      <img src='D:\eclipse_workspace\ad smoke test\test-output\screenshot\2018_05_09_11_42_50_486.jpg' onclick="window.open('D:\eclipse_workspace\ad smoke test\test-output\screenshot/2018_05_09_11_42_50_486.jpg')" height='100' width='100'/><br />
+	    	  	    	      <br />
+	    	  	</div>
+	  </td>
 </tr>
       </table>
 
 
-  <table class="resultsTable">
-    <tr><th colspan="6" class="header passed">Passed Tests</th></tr>
-          <tr>
-        <td colspan="1" class="group">com.pactera.hris.testcases.Login</td>
-		<td colspan="1" class="group">Duration</td>
-		<td colspan="1" class="group">Description</td>
-		<td colspan="1" class="group">Data being used</td>
-		<td colspan="1" class="group">Test result</td>
-		<td colspan="1" class="group">Screen shot</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  testLoginError
-      </td>
-  <td class="duration">
-    4.926s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">{testCommon=testCommon, password=123456, url=http://139.224.130.197:8080/adidas/?domain=gc_test_adidas, username=xxx}</span><br />
-    
-            <div class="testOutput">
-                        2018-05-06 14:23:55 : 打开登录页面: http://139.224.130.197:8080/adidas/?domain=gc_test_adidas<br />
-                                2018-05-06 14:23:57 : 输入登录用户名为: xxx<br />
-                                2018-05-06 14:23:57 : 输入登录密码为: 123456<br />
-                                2018-05-06 14:23:58 : 点击登录按钮...<br />
-                  </div>
-    
-
-      </td>
-</tr>
-      </table>
   
 </body>
 </html>

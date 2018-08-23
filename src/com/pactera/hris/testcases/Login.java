@@ -137,6 +137,6 @@ public class Login extends TestBase
 		logger.logInfo("点击登录按钮...");
 		lp.getElement("login_button").click();
 		String errorMessage = lp.getElement("login_error").getText();
-		Assertion.verifyEquals(errorMessage, "用户名或密码错误！");
+		Assertion.verifyEquals(errorMessage, "用户名或密码错误！xx");
 	}
 }

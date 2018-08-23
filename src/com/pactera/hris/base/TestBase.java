@@ -19,7 +19,7 @@ import com.pactera.hris.util.Util;
 import com.pactera.hris.util.XmlReader;
 
 /**
- * 提供DataProvider
+ * 提供DataProvider, load测试用例同名的xml，获取xml中同名方法名下的节点信息
  * 对testcase做一些公共处理
  * @author zhenhaiw
  *
@@ -82,6 +82,10 @@ public class TestBase
 	//Bring "browser" param from TestNG @Parameters("browser")
 	public void initialDriver(String browser)
 	{
+		//为了ReportNG截图
+		final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
+		System.setProperty(ESCAPE_PROPERTY, "false");
+		
 		SeleniumDriver selenium = new SeleniumDriver(browser);
 		driver = selenium.getDriver();
 	}

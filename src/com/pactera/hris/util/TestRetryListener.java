@@ -1,5 +1,6 @@
 package com.pactera.hris.util;
 
+
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -24,6 +25,9 @@ public class TestRetryListener implements ITestListener
         logger.logInfo(result.getMethod().getMethodName() + " failed, the screenshot saved in: "  
                 + Path.SCREENSHOTPATH + ", screenshot name: "  
                 + Screenshot.getScreenshotName());  
+        
+//        Reporter.setCurrentTestResult(result);
+//        result.setAttribute("screenshot", Path.SCREENSHOTPATH);
     }  
 	  
     public void onTestStart(ITestResult result) {  
